@@ -38,5 +38,11 @@ function addAwayScore3() {
     console.log(homeScore);
 }
 
+function resetScore() {
+    homeScore = 0;
+    awayScore = 0;
+    document.getElementById('home-score').innerText = homeScore;
+    document.getElementById('away-score').innerText = awayScore;
+}
 
 
